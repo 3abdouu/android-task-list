@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="@drawable/n3_image"
+
+>
+
+
+    <TextView
+        android:id="@+id/loginText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#F0F0F0"
+        android:text="Login"
+        android:textAlignment="center"
+        android:textColor="#563D3D"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <EditText
+
+        android:id="@+id/emailInput"
+        android:layout_width="292dp"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/passwordInput"
+        android:layout_width="295dp"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#7A5656"
+        android:text="GO"
+        android:textColorLink="#F6F6F6"
+        android:visibility="visible"
+        tools:visibility="visible" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't have an account?"
+        android:id="@+id/registerText"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="172dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#574D4D"
+        android:text="Register" />
+</LinearLayout>
